@@ -32,7 +32,7 @@ def padovan_tabulation(n):
 #===============MAIN PROGRAM========
 bil = int(input("Masukkan bilangan Padovan ke-berapa yang ingin dicari: "))
 while (bil < 3):
-    bil = int(input("\nMasukkan bilangan yang lebih besar atau sama dengan 3"))
+    bil = int(input("\nMasukkan bilangan yang lebih besar atau sama dengan 3: "))
 
 start = time.time()
 hasil = padovan_biasa(bil)
